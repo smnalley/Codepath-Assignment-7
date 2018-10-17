@@ -14,7 +14,6 @@ Exploit 2: Cross-site scripting via music metadata
 3) Add the audio file to the playlist, but insert an XSS script into the title. Again, we use the classic alert.
 <img src="https://github.com/smnalley/Codepath-Assignment-7/blob/master/Wordpress3_1.gif" width="800">
 4) Create the playlist, ensure the playlist is inserted into the post, and publish the post. The post will trigger the XSS script when viewed.
-<img src="https://github.com/smnalley/Codepath-Assignment-7/blob/master/Wordpress3_2.gif" width="800">
 5) Note: this does NOT work unless the media is part of a playlist. Putting the media in the playlist ensures that the title is displayed and thus ensures that the browser runs the script in the title.
 
 
